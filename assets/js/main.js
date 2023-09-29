@@ -7,6 +7,8 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
+    <a href=pokemonInfo.html>
+    <button onclick="construct.createPokemon(${pokemon.name},${pokemon.type},${pokemon.number}))">Click me</button>
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
@@ -20,6 +22,7 @@ function convertPokemonToLi(pokemon) {
                      alt="${pokemon.name}">
             </div>
         </li>
+    </a>
     `
 }
 
