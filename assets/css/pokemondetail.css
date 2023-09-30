@@ -139,7 +139,7 @@ ul.menu {
 
 ul.menu li {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .barra-dinamica {
@@ -165,7 +165,6 @@ ul.menu li {
 @media screen and (min-width: 1000px) and (max-width: 1439px) {
     .name {
         font-size: 2rem;
-        margin-left: 3rem;
     }
 
     .type {
